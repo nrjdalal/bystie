@@ -29,15 +29,15 @@ const Index = () => {
           </div>
         </div>
 
-        <div className="flex flex-col px-4 pt-24 md:flex-row md:px-0">
-          <div className="relative w-full md:w-1/2 md:pr-12">
+        <div className="flex flex-col pt-24 md:flex-row">
+          <div className="relative w-full px-4 md:pl-0 md:w-1/2 md:pr-12">
             <img className="w-full" src="/banner.png" alt="" />
             <p className="absolute text-3xl text-gray-400 2xl:text-4xl top-2">
               BESTSELLERS
             </p>
           </div>
 
-          <div className="flex flex-wrap w-full pt-4 md:pt-0 md:w-1/2 md:pl-20">
+          <div className="flex flex-wrap w-full pt-4 pl-4 md:pt-0 md:w-1/2 md:pl-20 ">
             <Product
               iLink="/1.png"
               brand="Mono"
