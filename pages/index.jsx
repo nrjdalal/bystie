@@ -30,7 +30,7 @@ const Index = () => {
         </div>
 
         <div className="flex flex-col pt-24 md:flex-row">
-          <div className="relative w-full px-4 lg:pl-0 md:w-1/2 md:pr-12">
+          <div className="relative w-full px-4 lg:pl-0 md:w-1/2 md:pr-10">
             <img className="w-full" src="/banner.png" alt="" />
             <p className="absolute text-3xl text-gray-400 2xl:text-4xl top-2">
               BESTSELLERS
