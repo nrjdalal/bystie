@@ -6,9 +6,9 @@ const Index = () => {
       <>
         <div className="relative flex flex-col items-center w-1/2 pr-4 2xl:text-lg">
           <img className="w-full" src={props.iLink} alt={props.title} />
-          <p className="pt-4 text-gray-700">{props.brand}</p>
+          <p className="pt-4 text-gray-400">{props.brand}</p>
           <p className="pt-1">{props.title}</p>
-          <p className="pt-1">{props.price}</p>
+          <p className="pt-1 pb-3">{props.price}</p>
           <p className="absolute text-black top-4 left-6">NEW</p>
         </div>
       </>
@@ -29,7 +29,7 @@ const Index = () => {
         </div>
 
         <div className="flex pt-24">
-          <div className="relative w-1/2">
+          <div className="relative w-1/2 pr-12">
             <img className="w-full" src="/banner.png" alt="" />
             <p className="absolute text-3xl text-gray-400 2xl:text-4xl top-2">
               BESTSELLERS
