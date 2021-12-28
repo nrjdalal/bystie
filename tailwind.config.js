@@ -36,7 +36,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        barlow: ['Barlow', ...defaultTheme.fontFamily.serif],
+        barlow: ['Roboto', ...defaultTheme.fontFamily.serif],
       },
     },
   },
