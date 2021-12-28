@@ -18,7 +18,7 @@ const Index = () => {
   return (
     <>
       <div className="flex">
-        <div className="flex flex-col items-center w-96">
+        <div className="flex-col items-center hidden lg:flex w-96">
           <div className="w-2/3 pt-48 text-xl 2xl:text-2xl">
             <p className="text-4xl font-bold">Bystie</p>
             <p className="pt-24">Home</p>
@@ -29,15 +29,15 @@ const Index = () => {
           </div>
         </div>
 
-        <div className="flex pt-24">
-          <div className="relative w-1/2 pr-12">
+        <div className="flex flex-col pt-24 md:flex-row">
+          <div className="relative w-full md:w-1/2 md:pr-12">
             <img className="w-full" src="/banner.png" alt="" />
             <p className="absolute text-3xl text-gray-400 2xl:text-4xl top-2">
               BESTSELLERS
             </p>
           </div>
 
-          <div className="flex flex-wrap w-1/2 pl-20">
+          <div className="flex flex-wrap w-full pt-4 md:pt-0 md:w-1/2 md:pl-20">
             <Product
               iLink="/1.png"
               brand="Mono"
