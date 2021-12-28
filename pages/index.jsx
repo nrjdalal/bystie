@@ -29,7 +29,7 @@ const Index = () => {
           </div>
         </div>
 
-        <div className="flex flex-col pt-24 md:flex-row">
+        <div className="flex flex-col px-4 pt-24 md:flex-row md:px-0">
           <div className="relative w-full md:w-1/2 md:pr-12">
             <img className="w-full" src="/banner.png" alt="" />
             <p className="absolute text-3xl text-gray-400 2xl:text-4xl top-2">
