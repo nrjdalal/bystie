@@ -20,7 +20,8 @@ const Index = () => {
       <div className="flex">
         <div className="flex flex-col items-center w-96">
           <div className="w-2/3 pt-48 text-xl 2xl:text-2xl">
-            <p>Home</p>
+            <p className="text-4xl font-bold">Bystie</p>
+            <p className="pt-24">Home</p>
             <p className="pt-8">Products</p>
             <p className="pt-8">Categories</p>
             <p className="pt-8">Creator Store</p>
